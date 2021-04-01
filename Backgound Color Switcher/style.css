@@ -1,0 +1,36 @@
+
+
+span{
+    display: block;
+}
+
+ #canvas{
+     margin: 100px auto 100px;
+     text-align: center;
+     width: 80%;     
+ }
+
+ .button{
+    width: 130px;
+    height: 130px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 50%;
+ }
+ 
+ #gray{
+    background: gray;
+ }
+
+ #red{
+     background: red;
+ }
+
+ #blue{
+     background:blue;
+ }
+
+ #yellow{
+     background: yellow;
+ }
+
