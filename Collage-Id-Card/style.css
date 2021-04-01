@@ -1,0 +1,37 @@
+body{
+    background-color:#ff9f80;
+}
+
+h1{
+	text-align:center;
+    background-color:#000000;
+    color:#FAEBD7;
+}
+
+
+#main{
+    float:left;
+    height:380px;
+    width:294.531px;
+    border: 2px solid black;
+    margin-left:30%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#4d79ff;
+}
+
+#container{
+    height:380px;
+    width :294.531px;
+	border: 2px solid black;
+    display: table;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #cccc00;  
+}
+
+#img-bg,#dis-bg{
+    text-shadow: 20x;
+    text-align: center;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="id.js"></script>
+        <link rel="icon" href="favicon.png">
+    </head>
+
+    <body>
+
+        <h1>College ID Generator</h1>
+
+        <div id="main">
+            <form name="form1">
+
+               <h1>Enter Student's Detail</h1>
+    
+               <p><b> Enter Name:</b><br>
+                  <input TYPE="TEXT" SIZE="25" NAME="name">
+               </p>
+
+               <p><b>Enter College Name:</b><br>
+                  <input TYPE="TEXT" SIZE="25" NAME="cname">
+               </p>
+
+               <p><b>Enter Location: </b> <br>
+                  <input TYPE="TEXT" SIZE="25" NAME="location">
+               </p>
+
+               <p><b>Enter student's picture:</b></p>
+               <label TYPE="button" for="file" style="cursor: pointer;"></label>
+               <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">          
+         
+               <p><input TYPE="BUTTON" VALUE="Generate ID" onClick="display();">
+               </p>
+
+            </form>        
+        </div>
+            
+    <div id="container">
+               <br>
+               <br>
+               <br>
+               <h1>Generated ID Card</h1>
+
+               <div id="img-bg">
+                 <p><img id="output" width="100" height="100"/></p>
+               </div>
+
+               <div id="dis-bg">
+                 <b id="dis"></b> 
+               </div>            
+    </div>
+
+</body>
+</html>

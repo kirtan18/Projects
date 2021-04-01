@@ -1,0 +1,55 @@
+body{
+  background-color:#994d00;
+}
+
+h2{
+	text-align: center;
+}
+
+.container{
+  margin: 100px 250px 100px 250px;
+    text-align: center;
+    padding: 25px 15px 55px 15px;
+    border: 4px solid #ff66ff;
+    border-radius: 10px;
+    background-color:#00FFFF;
+  
+}
+
+#quoteDisplay{
+	font-size:30px;
+	width: 400px;
+	padding: 70px;
+	color: #000099;
+	margin: auto;
+	text-align: center;
+	border: 4px solid #505050;
+	border-radius: 20px;
+	background-color:LightGray;
+	text-shadow: 10px;
+}
+
+#author{
+  font-size:30px;
+  color:red;
+  margin: auto;
+ 
+  margin-left:380px;
+ 
+} 
+button{
+  background-color:#00008B ;
+  justify-content:center;
+  margin-left: 10px;
+  font-size:22px;
+  width: 150px;
+  height: 40px;
+  color:white;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color:#FFFF00;
+  color: black;
+  box-shadow: 0 6px 6px 0 #C0C0C0, 0 6px 6px 0 #228B22;
+}
