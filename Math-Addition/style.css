@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: gray;
+    margin: 50px auto;
+}
+
+#first ,#second{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 125px;
+    height: 125px;
+    background-color: greenyellow;
+    font-size: 40px;
+    /* text-align: center; */
+    font-weight: bold;
+    padding: 30px;
+}
+
+#first{
+    border: solid 4px green;
+}
+
+#second{
+    border: solid 4px blue;
+}
+
+#add,#equal{
+    font-size: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input{
+     border:solid 2px cyan;
+     width:150px;
+     height: 60px;
+     padding-left: 25px;
+     font-size: 20px;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    margin:5px;
+    background: red;
+    color: white;
+    border: 1px solid lightgray; 
+}
